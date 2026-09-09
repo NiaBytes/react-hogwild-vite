@@ -24,6 +24,44 @@ body {
 
 .filterWrapper {
   margin: 2% 0% 2% 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.sortControl {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.sortControl select {
+  padding: 0.5rem;
+}
+
+.hogForm {
+  margin: 0 auto 2rem;
+  max-width: 700px;
+  text-align: left;
+}
+
+.hogForm .button {
+  display: block;
+  margin: 0 auto;
+}
+
+.ui.grid.container {
+  align-items: flex-start;
+}
+
+.ui.card.eight.wide.column {
+  cursor: pointer;
+  margin: 1rem !important;
+}
+
+.hogDetails {
+  text-align: left;
 }
 
 .headerText {
